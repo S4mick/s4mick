@@ -1,1 +1,3 @@
-# s4mick - top kek sec
+# s4mick
+
+Some stuff i did a long ago
