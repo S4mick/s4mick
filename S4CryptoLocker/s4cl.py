@@ -17,7 +17,7 @@ for f in files: #for each file
                    data=fr.read()
                    fr.close()
                    print f
-                  # os.remove(f)
+                  # os.remove(f) uncomment this to delete the original file
                    fo= open(f+"s4c","w")
                    data_s4c=hashlib.md5(data).hexdigest() #dati cryptati
                    fo.write(data_s4c)
