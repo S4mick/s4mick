@@ -4,7 +4,7 @@ import hashlib,os
 
 
 print 
-files=os.listdir(os.getcwd()) #get current directory file list
+files=os.listdir(os.getcwd()) #get current directory file list or put your own dir.. like C:\users\bob
 for f in files: #for each file
         
     if "." not in f:
